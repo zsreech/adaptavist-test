@@ -29,12 +29,14 @@ For Firefox [GeckoDriver]
 
 5.In the properties file set the path for the downloaded ChromeDriver and geckoDriver for properties chromeDriverPath and firefoxDriverPath.
 
-6.In config.properties set the browser property to "firefox" or "chrome"(depending on which browser to run)
+6.Use the 'chmod' command to assign execute permissions on the downloaded drivers, If they don't already have the execute permissions. 
 
-7.In terminal Navigate to the project folder containing the pom.xml file and run the below command
+7.In config.properties set the browser property to "firefox" or "chrome"(depending on which browser to run)
+
+8.In terminal Navigate to the project folder containing the pom.xml file and run the below command
 >mvn clean install
 
-8.The maven starts building the project, the browser launches and both the test case starts executing.
+9.The maven starts building the project, the browser launches and both the test case starts executing.
 
 
 
