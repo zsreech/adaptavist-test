@@ -1,23 +1,6 @@
 Instructions to Download and Run 
 ----
 
-Getting the code from the repository
-----
-**Steps**
-
-1.Create an Empty folder(Eg:RunAdaptTest) in your file system
-
-2.Navigate to the folder created in the terminal.
-
-3.Once inside the Folder Initialize it as git repo using the command
-
->git init
-
-4.Clone the existing code from the git repository using the below command
->git clone https://github.com/zsreech/adaptavist-test.git
-
-5.Run to check if all the files are up to date using the status command
->git status
 
 Importing into Eclipse and Configuring
 ----
