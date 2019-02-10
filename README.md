@@ -1,9 +1,10 @@
 Instructions to Download and Run 
 ----
 
-Geting the code from the repository
+Getting the code from the repository
 ----
 **Steps**
+
 1.Create an Empty folder(Eg:RunAdaptTest) in your file system
 
 2.Navigate to the folder created in the terminal.
