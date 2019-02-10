@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<!-- suite name = "DRG Generic automation framework" thread-count="2" parallel="methods" -->
+
+<suite name="AdaptavistTest" verbose="1" preserve-order="true">
+
+   <listeners>
+		<listener class-name="AdpdavistAutomationScenarios.utils.ExtentReportNG"></listener>
+		<listener class-name="AdpdavistAutomationScenarios.utils.LogListner"></listener>
+
+	</listeners>
+
+	
+     <test name="FirstTest" preserve-order="true" enabled="true">
+		<classes>
+			<class name="AdpdavistAutomationScenarios.AdaptaTest.AdaptTest"></class>
+		
+		</classes>
+	</test>
+	
+	</suite>
