@@ -1,9 +1,9 @@
-#Instructions to Download and Run 
-
-
-##Geting the code from the repository
+Instructions to Download and Run 
 ----
-###Steps
+
+Geting the code from the repository
+----
+**Steps**
 1.Create an Empty folder(Eg:RunAdaptTest) in your file system
 
 2.Navigate to the folder created in the terminal.
@@ -18,9 +18,9 @@
 5.Run to check if all the files are up to date using the status command
 >git status
 
-##Importing into Eclipse and Configuring
+Importing into Eclipse and Configuring
 ----
-###Steps
+**Steps**
 
 
 1.Launch the Eclispe IDE, Make sure the *Eclipse Maven Integration (m2e)* plugin is installed in eclipse. Now import the downloaded project in eclipse
@@ -51,9 +51,9 @@ For Firefox [GeckoDriver]
 
 
 
-##Analyzing the Results
+Analyzing the Results
 ----
-###Steps
+**Steps**
 
 1.Once the execution is complete, Right click on the project in eclipse and perform Refresh Action. The folders '**Logfile**'(for Logs), '**Output_Files**'(for ExtentReport html files) and '**Screenshots**'(For screenshots of first testcase scenario) will all be created under the project folder hierarchy.
 
@@ -77,9 +77,9 @@ The HTML reports can be viewed via the browser by copy pasting the complete path
 
 
 
-##To Run via Docker
+To Run via Docker
 ----
-###Steps
+**Steps**
 
 1.To make the test cases run via docker, go to the *config.properties* file change the browser property to **dockerchrome**
 
